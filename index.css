@@ -1,0 +1,49 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the h1 in the header */
+header h1 {
+    margin: 0;
+}
+
+/* Style the saying paragraph */
+#saying {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+/* Apply some spacing to the footer */
+footer {
+    margin-top: 20px;
+}
+
+/* Center the content horizontally */
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+#leavetxt{
+    text-align:center;
+}
+#video{
+    text-align:center;
+}

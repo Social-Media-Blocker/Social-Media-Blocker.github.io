@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change your life today</title>
+    <link rel = "stylesheet" href = "index.css">
+</head>
+<header>
+ <h1>You have been stopped.</h1>   
+</header>
+
+<p id = "saying"></p>
+<script>
+
+    var arre = ["It always seems impossible until it’s done.","How long should you try? Until.","Don’t give up because things are hard, but work harder, when you think of giving up.", "It is not wanting to win that makes you a winner; it is refusing to fail.","When you are going through hell, keep on going. Never never never give up.","Many of life’s failures are people who did not realize how close they were to success when they gave up.","Improvise.  Adapt.  Overcome","When someone tells you that you can’t do something, perhaps you should consider that they are only telling you what they can’t do.","There is no failure except in no longer trying.","The struggle you’re in today is developing the strength you need for tomorrow. Don’t give up.","Genius is 1% inspiration and 99% perspiration.","Your future is watching you."]
+    function getRandomInt(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min) + min); 
+    }
+    document.getElementById("saying").innerHTML = arre[getRandomInt(0,9)]; 
+    
+    
+    
+    </script>
+
+
+<body><p id = "leavetxt">
+    Before you leave, take a minute to watch this video.
+</p>
+<div id = "video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fLeJJPxua3E?si=vtkLKKqJvRxua5RD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</div>
+</html>
